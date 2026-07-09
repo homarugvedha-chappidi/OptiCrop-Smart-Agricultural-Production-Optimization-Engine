@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>OptiCrop</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+🌿 OptiCrop
+</div>
+
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about">About</a>
+<a href="/findyourcrop">Predict</a>
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Smart Crop Recommendation</h1>
+
+<p>
+Helping farmers make informed crop decisions using machine learning,
+soil nutrients, and environmental conditions.
+</p>
+
+<a href="/findyourcrop">
+<button>Get Recommendation</button>
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=700"
+alt="Agriculture">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 OptiCrop • Smart Agricultural Production Optimization Engine
+</p>
+
+</footer>
+
+</body>
+</html>
